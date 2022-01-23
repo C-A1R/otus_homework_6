@@ -119,14 +119,4 @@ void CmdQueue::execCommands()
         w->write(bulkStr);
     }
     _createBlockTime = 0;
-    // if (_consoleWriter)
-    // {
-    //     _consoleWriter->write(bulkStr);
-    // }
-    // if (_fileWriter)
-    // {
-    //     _fileWriter->setCreateBlockTime(_createBlockTime);
-    //     _fileWriter->write(bulkStr);
-    //     _createBlockTime = 0;
-    // }
 }
