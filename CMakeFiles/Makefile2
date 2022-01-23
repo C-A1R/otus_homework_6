@@ -91,7 +91,7 @@ clean: CMakeFiles/test_ICommandQueue.dir/clean
 CMakeFiles/doc_doxygen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc_doxygen.dir/build.make CMakeFiles/doc_doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=5 "Built target doc_doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=10 "Built target doc_doxygen"
 .PHONY : CMakeFiles/doc_doxygen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -117,12 +117,12 @@ CMakeFiles/doc_doxygen.dir/clean:
 CMakeFiles/bulk_cli.dir/all: CMakeFiles/bulk_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=1,2 "Built target bulk_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target bulk_cli"
 .PHONY : CMakeFiles/bulk_cli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bulk_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bulk_cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 0
 .PHONY : CMakeFiles/bulk_cli.dir/rule
@@ -143,7 +143,7 @@ CMakeFiles/bulk_cli.dir/clean:
 CMakeFiles/bulk_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_lib.dir/build.make CMakeFiles/bulk_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_lib.dir/build.make CMakeFiles/bulk_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=3,4 "Built target bulk_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=8,9 "Built target bulk_lib"
 .PHONY : CMakeFiles/bulk_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +169,7 @@ CMakeFiles/bulk_lib.dir/clean:
 CMakeFiles/test_Version.dir/all: CMakeFiles/bulk_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Version.dir/build.make CMakeFiles/test_Version.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Version.dir/build.make CMakeFiles/test_Version.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=10,11 "Built target test_Version"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=20,21 "Built target test_Version"
 .PHONY : CMakeFiles/test_Version.dir/all
 
 # Build rule for subdir invocation for target.
@@ -195,12 +195,12 @@ CMakeFiles/test_Version.dir/clean:
 CMakeFiles/test_ICommand.dir/all: CMakeFiles/bulk_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=6,7 "Built target test_ICommand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=11,12,13,14 "Built target test_ICommand"
 .PHONY : CMakeFiles/test_ICommand.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_ICommand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_ICommand.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 0
 .PHONY : CMakeFiles/test_ICommand.dir/rule
@@ -221,12 +221,12 @@ CMakeFiles/test_ICommand.dir/clean:
 CMakeFiles/test_ICommandQueue.dir/all: CMakeFiles/bulk_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=8,9 "Built target test_ICommandQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=15,16,17,18,19 "Built target test_ICommandQueue"
 .PHONY : CMakeFiles/test_ICommandQueue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_ICommandQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_ICommandQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles 0
 .PHONY : CMakeFiles/test_ICommandQueue.dir/rule

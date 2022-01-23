@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bulk
-   &#160;<span id="projectnumber">0.0.1</span>
+   &#160;<span id="projectnumber">0.0.2</span>
    </div>
    <div id="projectbrief">Пакетная обработка команд</div>
   </td>
@@ -70,14 +70,15 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="classCmdQueue.html">CmdQueue</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a6d859bcfa2a6350f027caf50ff09370f">CmdQueue</a>(size_t blockSize, std::unique_ptr&lt; IFileWriter &gt; writer)</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCmdQueue.html#a6fd7f1dbebcbc136661a75d560a95220">finishMacros</a>()</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a290dec60e139c96aae2abe13daca923f">haveStartedMacroses</a>() const override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classICommandQueue.html#a926c9bb75e74fd97a2b1ba55f7f8d1f3">ICommandQueue</a>()=default</td><td class="entry"><a class="el" href="classICommandQueue.html">ICommandQueue</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#aed3c2772a5966a5ec8c271f6a56ab5c7">push</a>(std::unique_ptr&lt; ICommand &gt; cmd) override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCmdQueue.html#a017f21ad4bf775490e5c8db994fac754">size</a>() const override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a5fab45cdf96281a423bfd4488e165af8">startMacros</a>()</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classICommandQueue.html#a7877f6db3e03f8569f1d537ca74f0553">~ICommandQueue</a>()=default</td><td class="entry"><a class="el" href="classICommandQueue.html">ICommandQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a18e417c8ccc881e465974bd860830191">addCommandWriter</a>(std::unique_ptr&lt; ICommandWriter &gt; writer)</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classCmdQueue.html#ab763fa58ca27d583d23a7248dcf8f93f">CmdQueue</a>(size_t blockSize)</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a6fd7f1dbebcbc136661a75d560a95220">finishMacros</a>()</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classCmdQueue.html#a290dec60e139c96aae2abe13daca923f">haveStartedMacroses</a>() const override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classICommandQueue.html#a926c9bb75e74fd97a2b1ba55f7f8d1f3">ICommandQueue</a>()=default</td><td class="entry"><a class="el" href="classICommandQueue.html">ICommandQueue</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classCmdQueue.html#aed3c2772a5966a5ec8c271f6a56ab5c7">push</a>(std::unique_ptr&lt; ICommand &gt; cmd) override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classCmdQueue.html#a11247544af8d57b7f87f3c6f952f6e68">size</a>() const override</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classCmdQueue.html#a5fab45cdf96281a423bfd4488e165af8">startMacros</a>()</td><td class="entry"><a class="el" href="classCmdQueue.html">CmdQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classICommandQueue.html#a7877f6db3e03f8569f1d537ca74f0553">~ICommandQueue</a>()=default</td><td class="entry"><a class="el" href="classICommandQueue.html">ICommandQueue</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

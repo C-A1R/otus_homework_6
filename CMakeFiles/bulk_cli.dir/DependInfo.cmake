@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp" "CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o.d"
+  "/home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp" "CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o.d"
+  "/home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp" "CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o.d"
+  "/home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/ConsoleWriter.cpp" "CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o.d"
+  "/home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/FileWriter.cpp" "CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o.d"
   "/home/runner/work/otus_homework_6/otus_homework_6/src/main.cpp" "CMakeFiles/bulk_cli.dir/src/main.cpp.o" "gcc" "CMakeFiles/bulk_cli.dir/src/main.cpp.o.d"
   )
 

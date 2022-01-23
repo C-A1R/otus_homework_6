@@ -269,6 +269,189 @@ test_ICommandQueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/build
 .PHONY : test_ICommandQueue/fast
 
+src/_tests/test_ICommand.o: src/_tests/test_ICommand.cpp.o
+.PHONY : src/_tests/test_ICommand.o
+
+# target to build an object file
+src/_tests/test_ICommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.o
+.PHONY : src/_tests/test_ICommand.cpp.o
+
+src/_tests/test_ICommand.i: src/_tests/test_ICommand.cpp.i
+.PHONY : src/_tests/test_ICommand.i
+
+# target to preprocess a source file
+src/_tests/test_ICommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.i
+.PHONY : src/_tests/test_ICommand.cpp.i
+
+src/_tests/test_ICommand.s: src/_tests/test_ICommand.cpp.s
+.PHONY : src/_tests/test_ICommand.s
+
+# target to generate assembly for a file
+src/_tests/test_ICommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.s
+.PHONY : src/_tests/test_ICommand.cpp.s
+
+src/_tests/test_ICommandQueue.o: src/_tests/test_ICommandQueue.cpp.o
+.PHONY : src/_tests/test_ICommandQueue.o
+
+# target to build an object file
+src/_tests/test_ICommandQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o
+.PHONY : src/_tests/test_ICommandQueue.cpp.o
+
+src/_tests/test_ICommandQueue.i: src/_tests/test_ICommandQueue.cpp.i
+.PHONY : src/_tests/test_ICommandQueue.i
+
+# target to preprocess a source file
+src/_tests/test_ICommandQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.i
+.PHONY : src/_tests/test_ICommandQueue.cpp.i
+
+src/_tests/test_ICommandQueue.s: src/_tests/test_ICommandQueue.cpp.s
+.PHONY : src/_tests/test_ICommandQueue.s
+
+# target to generate assembly for a file
+src/_tests/test_ICommandQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.s
+.PHONY : src/_tests/test_ICommandQueue.cpp.s
+
+src/command/Cmd.o: src/command/Cmd.cpp.o
+.PHONY : src/command/Cmd.o
+
+# target to build an object file
+src/command/Cmd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o
+.PHONY : src/command/Cmd.cpp.o
+
+src/command/Cmd.i: src/command/Cmd.cpp.i
+.PHONY : src/command/Cmd.i
+
+# target to preprocess a source file
+src/command/Cmd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.i
+.PHONY : src/command/Cmd.cpp.i
+
+src/command/Cmd.s: src/command/Cmd.cpp.s
+.PHONY : src/command/Cmd.s
+
+# target to generate assembly for a file
+src/command/Cmd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.s
+.PHONY : src/command/Cmd.cpp.s
+
+src/command/MacroCmd.o: src/command/MacroCmd.cpp.o
+.PHONY : src/command/MacroCmd.o
+
+# target to build an object file
+src/command/MacroCmd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o
+.PHONY : src/command/MacroCmd.cpp.o
+
+src/command/MacroCmd.i: src/command/MacroCmd.cpp.i
+.PHONY : src/command/MacroCmd.i
+
+# target to preprocess a source file
+src/command/MacroCmd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.i
+.PHONY : src/command/MacroCmd.cpp.i
+
+src/command/MacroCmd.s: src/command/MacroCmd.cpp.s
+.PHONY : src/command/MacroCmd.s
+
+# target to generate assembly for a file
+src/command/MacroCmd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.s
+.PHONY : src/command/MacroCmd.cpp.s
+
+src/command_queue/CmdQueue.o: src/command_queue/CmdQueue.cpp.o
+.PHONY : src/command_queue/CmdQueue.o
+
+# target to build an object file
+src/command_queue/CmdQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o
+.PHONY : src/command_queue/CmdQueue.cpp.o
+
+src/command_queue/CmdQueue.i: src/command_queue/CmdQueue.cpp.i
+.PHONY : src/command_queue/CmdQueue.i
+
+# target to preprocess a source file
+src/command_queue/CmdQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.i
+.PHONY : src/command_queue/CmdQueue.cpp.i
+
+src/command_queue/CmdQueue.s: src/command_queue/CmdQueue.cpp.s
+.PHONY : src/command_queue/CmdQueue.s
+
+# target to generate assembly for a file
+src/command_queue/CmdQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.s
+.PHONY : src/command_queue/CmdQueue.cpp.s
+
+src/command_writer/ConsoleWriter.o: src/command_writer/ConsoleWriter.cpp.o
+.PHONY : src/command_writer/ConsoleWriter.o
+
+# target to build an object file
+src/command_writer/ConsoleWriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o
+.PHONY : src/command_writer/ConsoleWriter.cpp.o
+
+src/command_writer/ConsoleWriter.i: src/command_writer/ConsoleWriter.cpp.i
+.PHONY : src/command_writer/ConsoleWriter.i
+
+# target to preprocess a source file
+src/command_writer/ConsoleWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.i
+.PHONY : src/command_writer/ConsoleWriter.cpp.i
+
+src/command_writer/ConsoleWriter.s: src/command_writer/ConsoleWriter.cpp.s
+.PHONY : src/command_writer/ConsoleWriter.s
+
+# target to generate assembly for a file
+src/command_writer/ConsoleWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.s
+.PHONY : src/command_writer/ConsoleWriter.cpp.s
+
+src/command_writer/FileWriter.o: src/command_writer/FileWriter.cpp.o
+.PHONY : src/command_writer/FileWriter.o
+
+# target to build an object file
+src/command_writer/FileWriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o
+.PHONY : src/command_writer/FileWriter.cpp.o
+
+src/command_writer/FileWriter.i: src/command_writer/FileWriter.cpp.i
+.PHONY : src/command_writer/FileWriter.i
+
+# target to preprocess a source file
+src/command_writer/FileWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.i
+.PHONY : src/command_writer/FileWriter.cpp.i
+
+src/command_writer/FileWriter.s: src/command_writer/FileWriter.cpp.s
+.PHONY : src/command_writer/FileWriter.s
+
+# target to generate assembly for a file
+src/command_writer/FileWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.s
+.PHONY : src/command_writer/FileWriter.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -292,54 +475,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bulk_cli.dir/build.make CMakeFiles/bulk_cli.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/test_ICommand.o: src/test_ICommand.cpp.o
-.PHONY : src/test_ICommand.o
-
-# target to build an object file
-src/test_ICommand.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/test_ICommand.cpp.o
-.PHONY : src/test_ICommand.cpp.o
-
-src/test_ICommand.i: src/test_ICommand.cpp.i
-.PHONY : src/test_ICommand.i
-
-# target to preprocess a source file
-src/test_ICommand.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/test_ICommand.cpp.i
-.PHONY : src/test_ICommand.cpp.i
-
-src/test_ICommand.s: src/test_ICommand.cpp.s
-.PHONY : src/test_ICommand.s
-
-# target to generate assembly for a file
-src/test_ICommand.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommand.dir/build.make CMakeFiles/test_ICommand.dir/src/test_ICommand.cpp.s
-.PHONY : src/test_ICommand.cpp.s
-
-src/test_ICommandQueue.o: src/test_ICommandQueue.cpp.o
-.PHONY : src/test_ICommandQueue.o
-
-# target to build an object file
-src/test_ICommandQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o
-.PHONY : src/test_ICommandQueue.cpp.o
-
-src/test_ICommandQueue.i: src/test_ICommandQueue.cpp.i
-.PHONY : src/test_ICommandQueue.i
-
-# target to preprocess a source file
-src/test_ICommandQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.i
-.PHONY : src/test_ICommandQueue.cpp.i
-
-src/test_ICommandQueue.s: src/test_ICommandQueue.cpp.s
-.PHONY : src/test_ICommandQueue.s
-
-# target to generate assembly for a file
-src/test_ICommandQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ICommandQueue.dir/build.make CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.s
-.PHONY : src/test_ICommandQueue.cpp.s
 
 src/version/test_Version.o: src/version/test_Version.cpp.o
 .PHONY : src/version/test_Version.o
@@ -410,15 +545,30 @@ help:
 	@echo "... test_ICommand"
 	@echo "... test_ICommandQueue"
 	@echo "... test_Version"
+	@echo "... src/_tests/test_ICommand.o"
+	@echo "... src/_tests/test_ICommand.i"
+	@echo "... src/_tests/test_ICommand.s"
+	@echo "... src/_tests/test_ICommandQueue.o"
+	@echo "... src/_tests/test_ICommandQueue.i"
+	@echo "... src/_tests/test_ICommandQueue.s"
+	@echo "... src/command/Cmd.o"
+	@echo "... src/command/Cmd.i"
+	@echo "... src/command/Cmd.s"
+	@echo "... src/command/MacroCmd.o"
+	@echo "... src/command/MacroCmd.i"
+	@echo "... src/command/MacroCmd.s"
+	@echo "... src/command_queue/CmdQueue.o"
+	@echo "... src/command_queue/CmdQueue.i"
+	@echo "... src/command_queue/CmdQueue.s"
+	@echo "... src/command_writer/ConsoleWriter.o"
+	@echo "... src/command_writer/ConsoleWriter.i"
+	@echo "... src/command_writer/ConsoleWriter.s"
+	@echo "... src/command_writer/FileWriter.o"
+	@echo "... src/command_writer/FileWriter.i"
+	@echo "... src/command_writer/FileWriter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/test_ICommand.o"
-	@echo "... src/test_ICommand.i"
-	@echo "... src/test_ICommand.s"
-	@echo "... src/test_ICommandQueue.o"
-	@echo "... src/test_ICommandQueue.i"
-	@echo "... src/test_ICommandQueue.s"
 	@echo "... src/version/test_Version.o"
 	@echo "... src/version/test_Version.i"
 	@echo "... src/version/test_Version.s"

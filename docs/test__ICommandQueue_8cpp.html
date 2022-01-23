@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>bulk: src/test_ICommandQueue.cpp File Reference</title>
+<title>bulk: src/_tests/test_ICommandQueue.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">bulk
-   &#160;<span id="projectnumber">0.0.1</span>
+   &#160;<span id="projectnumber">0.0.2</span>
    </div>
    <div id="projectbrief">Пакетная обработка команд</div>
   </td>
@@ -63,7 +63,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_cc8f1d1414d8f3f12020eb9a647a770c.html">_tests</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,26 +74,29 @@ $(function() {
 <div class="title">test_ICommandQueue.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ICommandQueue_8h_source.html">ICommandQueue.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="Cmd_8h_source.html">../command/Cmd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MacroCmd_8h_source.html">../command/MacroCmd.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="CmdQueue_8h_source.html">../command_queue/CmdQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ICommandWriter_8h_source.html">../command_writer/ICommandWriter.h</a>&quot;</code><br />
 <code>#include &lt;boost/test/unit_test.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for test_ICommandQueue.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="test__ICommandQueue_8cpp__incl.png" border="0" usemap="#src_2test__ICommandQueue_8cpp" alt=""/></div>
-<map name="src_2test__ICommandQueue_8cpp" id="src_2test__ICommandQueue_8cpp">
-<area shape="rect" title=" " alt="" coords="410,5,627,32"/>
-<area shape="rect" href="ICommandQueue_8h.html" title=" " alt="" coords="353,80,500,107"/>
-<area shape="rect" title=" " alt="" coords="524,80,700,107"/>
-<area shape="rect" href="ICommand_8h.html" title=" " alt="" coords="86,155,191,181"/>
-<area shape="rect" href="IFileWriter_8h.html" title=" " alt="" coords="215,155,315,181"/>
-<area shape="rect" title=" " alt="" coords="339,155,419,181"/>
-<area shape="rect" title=" " alt="" coords="443,155,506,181"/>
-<area shape="rect" title=" " alt="" coords="530,155,587,181"/>
-<area shape="rect" title=" " alt="" coords="612,155,671,181"/>
-<area shape="rect" title=" " alt="" coords="195,229,253,256"/>
-<area shape="rect" title=" " alt="" coords="5,229,83,256"/>
-<area shape="rect" title=" " alt="" coords="107,229,170,256"/>
-<area shape="rect" title=" " alt="" coords="278,229,351,256"/>
+<div class="center"><img src="test__ICommandQueue_8cpp__incl.png" border="0" usemap="#src_2__tests_2test__ICommandQueue_8cpp" alt=""/></div>
+<map name="src_2__tests_2test__ICommandQueue_8cpp" id="src_2__tests_2test__ICommandQueue_8cpp">
+<area shape="rect" title=" " alt="" coords="415,5,606,47"/>
+<area shape="rect" href="Cmd_8h.html" title=" " alt="" coords="249,102,394,129"/>
+<area shape="rect" href="MacroCmd_8h.html" title=" " alt="" coords="418,102,603,129"/>
+<area shape="rect" href="CmdQueue_8h.html" title=" " alt="" coords="628,102,863,129"/>
+<area shape="rect" href="ICommandWriter_8h.html" title=" " alt="" coords="5,95,224,136"/>
+<area shape="rect" title=" " alt="" coords="887,102,1063,129"/>
+<area shape="rect" href="ICommand_8h.html" title=" " alt="" coords="269,184,374,211"/>
+<area shape="rect" title=" " alt="" coords="247,259,305,285"/>
+<area shape="rect" title=" " alt="" coords="688,259,765,285"/>
+<area shape="rect" title=" " alt="" coords="479,184,542,211"/>
+<area shape="rect" href="ICommandQueue_8h.html" title=" " alt="" coords="795,184,941,211"/>
+<area shape="rect" title=" " alt="" coords="626,184,689,211"/>
+<area shape="rect" title=" " alt="" coords="713,184,770,211"/>
 </map>
 </div>
 </div><table class="memberdecls">

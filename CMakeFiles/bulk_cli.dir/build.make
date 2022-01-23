@@ -83,18 +83,98 @@ CMakeFiles/bulk_cli.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/main.cpp -o CMakeFiles/bulk_cli.dir/src/main.cpp.s
 
+CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o: CMakeFiles/bulk_cli.dir/flags.make
+CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o: src/command/Cmd.cpp
+CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o: CMakeFiles/bulk_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o -MF CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o.d -o CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp
+
+CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp > CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.i
+
+CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp -o CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.s
+
+CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o: CMakeFiles/bulk_cli.dir/flags.make
+CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o: src/command/MacroCmd.cpp
+CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o: CMakeFiles/bulk_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o -MF CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o.d -o CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp
+
+CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp > CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.i
+
+CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp -o CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.s
+
+CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o: CMakeFiles/bulk_cli.dir/flags.make
+CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o: src/command_queue/CmdQueue.cpp
+CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o: CMakeFiles/bulk_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o -MF CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o.d -o CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp
+
+CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp > CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.i
+
+CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp -o CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.s
+
+CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o: CMakeFiles/bulk_cli.dir/flags.make
+CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o: src/command_writer/ConsoleWriter.cpp
+CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o: CMakeFiles/bulk_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o -MF CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o.d -o CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/ConsoleWriter.cpp
+
+CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/ConsoleWriter.cpp > CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.i
+
+CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/ConsoleWriter.cpp -o CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.s
+
+CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o: CMakeFiles/bulk_cli.dir/flags.make
+CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o: src/command_writer/FileWriter.cpp
+CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o: CMakeFiles/bulk_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o -MF CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o.d -o CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/FileWriter.cpp
+
+CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/FileWriter.cpp > CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.i
+
+CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command_writer/FileWriter.cpp -o CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.s
+
 # Object files for target bulk_cli
 bulk_cli_OBJECTS = \
-"CMakeFiles/bulk_cli.dir/src/main.cpp.o"
+"CMakeFiles/bulk_cli.dir/src/main.cpp.o" \
+"CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o" \
+"CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o" \
+"CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o" \
+"CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o" \
+"CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o"
 
 # External object files for target bulk_cli
 bulk_cli_EXTERNAL_OBJECTS =
 
 bulk_cli: CMakeFiles/bulk_cli.dir/src/main.cpp.o
+bulk_cli: CMakeFiles/bulk_cli.dir/src/command/Cmd.cpp.o
+bulk_cli: CMakeFiles/bulk_cli.dir/src/command/MacroCmd.cpp.o
+bulk_cli: CMakeFiles/bulk_cli.dir/src/command_queue/CmdQueue.cpp.o
+bulk_cli: CMakeFiles/bulk_cli.dir/src/command_writer/ConsoleWriter.cpp.o
+bulk_cli: CMakeFiles/bulk_cli.dir/src/command_writer/FileWriter.cpp.o
 bulk_cli: CMakeFiles/bulk_cli.dir/build.make
 bulk_cli: libbulk_lib.a
 bulk_cli: CMakeFiles/bulk_cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bulk_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bulk_cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bulk_cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

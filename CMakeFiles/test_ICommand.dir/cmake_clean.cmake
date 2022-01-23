@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_ICommand.dir/src/test_ICommand.cpp.o"
-  "CMakeFiles/test_ICommand.dir/src/test_ICommand.cpp.o.d"
+  "CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.o"
+  "CMakeFiles/test_ICommand.dir/src/_tests/test_ICommand.cpp.o.d"
+  "CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.o"
+  "CMakeFiles/test_ICommand.dir/src/command/Cmd.cpp.o.d"
+  "CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.o"
+  "CMakeFiles/test_ICommand.dir/src/command/MacroCmd.cpp.o.d"
   "test_ICommand"
   "test_ICommand.pdb"
 )

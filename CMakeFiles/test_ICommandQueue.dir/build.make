@@ -69,33 +69,81 @@ include CMakeFiles/test_ICommandQueue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_ICommandQueue.dir/flags.make
 
-CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/flags.make
-CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o: src/test_ICommandQueue.cpp
-CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o -MF CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o.d -o CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/test_ICommandQueue.cpp
+CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/flags.make
+CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o: src/_tests/test_ICommandQueue.cpp
+CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o -MF CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o.d -o CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/_tests/test_ICommandQueue.cpp
 
-CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/test_ICommandQueue.cpp > CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.i
+CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/_tests/test_ICommandQueue.cpp > CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.i
 
-CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/test_ICommandQueue.cpp -o CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.s
+CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/_tests/test_ICommandQueue.cpp -o CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.s
+
+CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/flags.make
+CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o: src/command_queue/CmdQueue.cpp
+CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o: CMakeFiles/test_ICommandQueue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o -MF CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o.d -o CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp
+
+CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp > CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.i
+
+CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command_queue/CmdQueue.cpp -o CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.s
+
+CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o: CMakeFiles/test_ICommandQueue.dir/flags.make
+CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o: src/command/Cmd.cpp
+CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o: CMakeFiles/test_ICommandQueue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o -MF CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o.d -o CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp
+
+CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp > CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.i
+
+CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command/Cmd.cpp -o CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.s
+
+CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o: CMakeFiles/test_ICommandQueue.dir/flags.make
+CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o: src/command/MacroCmd.cpp
+CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o: CMakeFiles/test_ICommandQueue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o -MF CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o.d -o CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o -c /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp
+
+CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp > CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.i
+
+CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/otus_homework_6/otus_homework_6/src/command/MacroCmd.cpp -o CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.s
 
 # Object files for target test_ICommandQueue
 test_ICommandQueue_OBJECTS = \
-"CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o"
+"CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o" \
+"CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o" \
+"CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o" \
+"CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o"
 
 # External object files for target test_ICommandQueue
 test_ICommandQueue_EXTERNAL_OBJECTS =
 
-test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/src/test_ICommandQueue.cpp.o
+test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/src/_tests/test_ICommandQueue.cpp.o
+test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/src/command_queue/CmdQueue.cpp.o
+test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/src/command/Cmd.cpp.o
+test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/src/command/MacroCmd.cpp.o
 test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/build.make
 test_ICommandQueue: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.71.0
 test_ICommandQueue: libbulk_lib.a
 test_ICommandQueue: CMakeFiles/test_ICommandQueue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_ICommandQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/runner/work/otus_homework_6/otus_homework_6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_ICommandQueue"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_ICommandQueue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

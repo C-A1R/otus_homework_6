@@ -1,13 +1,4 @@
-<map id="src/ICommandQueue.h" name="src/ICommandQueue.h">
-<area shape="rect" id="node1" title=" " alt="" coords="341,5,512,32"/>
-<area shape="rect" id="node2" href="$ICommand_8h.html" title=" " alt="" coords="86,80,191,107"/>
-<area shape="rect" id="node6" href="$IFileWriter_8h.html" title=" " alt="" coords="215,80,315,107"/>
-<area shape="rect" id="node8" title=" " alt="" coords="339,80,419,107"/>
-<area shape="rect" id="node9" title=" " alt="" coords="443,80,506,107"/>
-<area shape="rect" id="node10" title=" " alt="" coords="530,80,587,107"/>
-<area shape="rect" id="node11" title=" " alt="" coords="612,80,671,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="195,155,253,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="107,155,170,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="278,155,351,181"/>
+<map id="src/command_queue/ICommandQueue.h" name="src/command_queue/ICommandQueue.h">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,237,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="83,95,160,121"/>
 </map>
