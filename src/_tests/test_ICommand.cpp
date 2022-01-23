@@ -1,6 +1,7 @@
 #define BOOST_TEST_MODULE test_ICommand
 
-#include "ICommand.h"
+#include "../command/Cmd.h"
+#include "../command/MacroCmd.h"
 
 #include <boost/test/unit_test.hpp>
 

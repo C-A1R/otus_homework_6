@@ -1,4 +1,8 @@
-#include "ICommandQueue.h"
+#include "command/Cmd.h"
+#include "command/MacroCmd.h"
+#include "command_queue/CmdQueue.h"
+#include "command_writer/ConsoleWriter.h"
+#include "command_writer/FileWriter.h"
 
 #include <iostream>
 #include <sstream>
@@ -13,7 +17,9 @@ int main (int argc, char **argv)
     sstr >> queueSize;
     assert(queueSize > 0);
 
-    std::unique_ptr<ICommandQueue> commands = std::make_unique<CmdQueue>(queueSize, std::make_unique<CommandFileWriter>());
+    auto commands = std::make_unique<CmdQueue>(queueSize);
+    commands->addCommandWriter(std::make_unique<ConsoleWriter>());
+    commands->addCommandWriter(std::make_unique<FileWriter>());
     for (std::string line; std::getline(std::cin, line);)
     {
         if (line.empty())

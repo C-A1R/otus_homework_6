@@ -32,13 +32,27 @@ configure_file(src/version/version.h.in version.h)
 
 set(SOURCE_FILES 
     src/main.cpp
+    src/command/Cmd.cpp
+    src/command/MacroCmd.cpp
+    src/command_queue/CmdQueue.cpp
+    src/command_writer/ConsoleWriter.cpp
+    src/command_writer/FileWriter.cpp
 )
 
 add_executable(bulk_cli ${SOURCE_FILES})
 add_library(bulk_lib src/version/versionLib.cpp)
 add_executable(test_Version src/version/test_Version.cpp)
-add_executable(test_ICommand src/test_ICommand.cpp)
-add_executable(test_ICommandQueue src/test_ICommandQueue.cpp)
+add_executable(test_ICommand 
+    src/_tests/test_ICommand.cpp 
+    src/command/Cmd.cpp 
+    src/command/MacroCmd.cpp
+)
+add_executable(test_ICommandQueue
+    src/_tests/test_ICommandQueue.cpp 
+    src/command_queue/CmdQueue.cpp 
+    src/command/Cmd.cpp 
+    src/command/MacroCmd.cpp
+)
 
 set_target_properties(bulk_cli bulk_lib test_Version test_ICommand test_ICommandQueue PROPERTIES
     CXX_STANDARD 17

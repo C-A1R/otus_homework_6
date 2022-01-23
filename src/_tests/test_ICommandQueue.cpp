@@ -1,6 +1,9 @@
 #define BOOST_TEST_MODULE test_ICommand
 
-#include "ICommandQueue.h"
+#include "../command/Cmd.h"
+#include "../command/MacroCmd.h"
+#include "../command_queue/CmdQueue.h"
+#include "../command_writer/ICommandWriter.h"
 
 #include <boost/test/unit_test.hpp>
 
@@ -9,7 +12,7 @@ BOOST_AUTO_TEST_SUITE(test_cmdQueue)
 
 BOOST_AUTO_TEST_CASE(blockSize_0)
 {
-    CmdQueue cmdQueue(0, nullptr);
+    CmdQueue cmdQueue(0);
     BOOST_CHECK(cmdQueue.size() == 0);
 
     cmdQueue.push(std::make_unique<Cmd>("cmd1"));
@@ -21,7 +24,7 @@ BOOST_AUTO_TEST_CASE(blockSize_0)
 
 BOOST_AUTO_TEST_CASE(blockSize_1)
 {
-    CmdQueue cmdQueue(1, nullptr);
+    CmdQueue cmdQueue(1);
     cmdQueue.push(std::make_unique<Cmd>("cmd1"));
     BOOST_CHECK(cmdQueue.size() == 0);
 
@@ -36,7 +39,7 @@ BOOST_AUTO_TEST_CASE(blockSize_1)
 
 BOOST_AUTO_TEST_CASE(blockSize_several_static)
 {
-    CmdQueue cmdQueue(3, nullptr);
+    CmdQueue cmdQueue(3);
     cmdQueue.push(std::make_unique<Cmd>("cmd1"));
     BOOST_CHECK(cmdQueue.size() == 1);
     cmdQueue.push(std::make_unique<Cmd>("cmd2"));
@@ -52,7 +55,7 @@ BOOST_AUTO_TEST_CASE(blockSize_several_static)
 
 BOOST_AUTO_TEST_CASE(blockSize_several_dynamic)
 {
-    CmdQueue cmdQueue(3, nullptr);
+    CmdQueue cmdQueue(3);
     cmdQueue.push(std::make_unique<Cmd>("cmd1"));
     BOOST_CHECK(cmdQueue.size() == 1);
     cmdQueue.push(std::make_unique<Cmd>("cmd2"));
